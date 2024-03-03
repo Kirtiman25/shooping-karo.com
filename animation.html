@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation </title>
+</head>
+<style>
+    .bot{
+        height: 40px;
+        width: 150px;
+        background-color: lightgray;
+        border: 5px solid;
+        
+        transition-duration: 1s;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-delay: 1s;
+    }
+    .bot:hover{
+        height: 50px;
+        width: 50px;
+        background-color: green;
+    }
+    .bot:active{
+        background-color: red;
+    }
+
+</style>
+<body>
+    <button class="bot">click me </button>
+    
+</body>
+</html>
