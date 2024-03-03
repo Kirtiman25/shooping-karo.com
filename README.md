@@ -1,0 +1,1 @@
+# shooping-karo.com
